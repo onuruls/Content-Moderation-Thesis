@@ -1,0 +1,31 @@
+model_name: clip
+model_id: ViT-L-14
+pretrained: openai
+dtype: float16
+#static_thr: 0.32636454701423645 #[{float}]
+batch_size: 80
+
+###
+
+run_name: clip_vitl14_nudenet
+dataset: nudenet
+#train_split: train[:100%]
+val_split: validation[:50%]
+test_split: test
+sexy_policy: exclude #[unsafe, exclude]
+
+#run_name: clip_vitl14_unsafebench
+#dataset: unsafebench
+#val_split: test[:100%]
+#test_split: train[:100%]
+
+#run_name: clip_vitl14_lspd_normal
+#dataset: lspd
+#lspd_domain: normal #"anime" | "normal" | "both"
+#val_split: validation[95%:]
+#test_split: test[:10%]
+
+#run_name: clip_vitl14_internal
+#dataset: internal
+#val_split: validation[:100%]
+#test_split: test[:100%]

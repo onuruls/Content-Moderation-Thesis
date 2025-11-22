@@ -1,0 +1,12 @@
+model_name: animetimm_trained
+#static_thr: 0.5234375 #[{float}]
+dtype: float16
+batch_size: 80
+model_path: artifacts/animetimm/best_test.pt
+###
+
+run_name: animetimm_multitask_nudenet_exc
+dataset: nudenet
+val_split: validation[:50%]
+test_split: test
+sexy_policy: exclude #[unsafe, exclude]

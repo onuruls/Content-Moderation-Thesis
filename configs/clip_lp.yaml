@@ -1,0 +1,23 @@
+model_name: clip_lp
+model_id: ViT-L-14
+pretrained: openai
+linear_head_path: artifacts/clip_nudenet_lp/linear_head.npz
+l2norm: true
+batch_size: 80
+dtype: float16
+
+#static_thr: 0.05
+
+run_name: clip_lp_nudenet
+dataset: nudenet
+sexy_policy: exclude
+val_split: validation[:50%]
+test_split: test[:100%]
+
+#run_name: clip_lp_lspd_anime
+#dataset: lspd
+#lspd_domain: anime #"anime" | "normal" | "both"
+#val_split: validation[95%:]
+#test_split: test[:10%]
+
+
