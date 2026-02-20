@@ -19,8 +19,8 @@ This repository contains the official codebase for the proposed B.Sc. thesis on 
 ### 1. Install
 ```bash
 # Clone repository
-git clone https://github.com/onuruls/content-moderation-thesis.git
-cd content-moderation-thesis
+git clone https://github.com/onullusoy/Content-Moderation-Thesis.git
+cd Content-Moderation-Thesis
 
 # Install dependencies (requires Python 3.10+)
 pip install -e .
