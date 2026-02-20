@@ -1,0 +1,15 @@
+torch
+torchvision
+numpy
+pandas
+Pillow
+open_clip_torch
+timm
+scikit-learn
+pyyaml
+tqdm
+matplotlib
+
+[dev]
+black
+ruff

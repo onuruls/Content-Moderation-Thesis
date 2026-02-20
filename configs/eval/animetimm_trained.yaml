@@ -1,0 +1,12 @@
+model_name: animetimm_trained
+#static_thr: 0.5234375 #[{float}]
+dtype: float16
+batch_size: 80
+model_path: weights/animetimm.pt
+###
+
+run_name: animetimm_trained_unsafebench
+dataset: unsafebench
+val_split: test[:50%]
+test_split: train
+# sexy_policy: exclude #[unsafe, exclude]

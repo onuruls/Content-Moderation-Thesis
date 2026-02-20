@@ -1,0 +1,29 @@
+model_name: siglip2
+model_id: google/siglip2-so400m-patch14-384
+#static_thr: 0.244  #[float]
+dtype: float16
+batch_size: 96
+
+###
+
+#run_name: siglip2_so400m_nudenet
+#dataset: nudenet
+#val_split: validation[:50%]
+#test_split: test
+#sexy_policy: exclude  #[unsafe, exclude]
+
+#run_name: siglip2_so400m_unsafebench
+#dataset: unsafebench
+#val_split: test
+#test_split: train
+
+#run_name: siglip2_so400m_internal
+#dataset: internal
+#val_split: validation[:100%]
+#test_split: test[:100%]
+
+# run_name: siglip2_so400m_lspd_anime
+# dataset: lspd
+# lspd_domain: anime #"anime" | "normal" | "both"
+# val_split: validation[95%:]
+# test_split: test[:10%]

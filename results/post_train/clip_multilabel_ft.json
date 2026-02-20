@@ -1,0 +1,96 @@
+{
+    "Internal": [
+        {
+            "category": "alcohol",
+            "threshold": null,
+            "acc": null,
+            "prec": 0.9348,
+            "rec": 0.9556,
+            "f1": 0.9451,
+            "duration_sec": null,
+            "n_forward_calls": null
+        },
+        {
+            "category": "drugs",
+            "threshold": null,
+            "acc": null,
+            "prec": 0.9730,
+            "rec": 0.9474,
+            "f1": 0.9600,
+            "duration_sec": null,
+            "n_forward_calls": null
+        },
+        {
+            "category": "weapons",
+            "threshold": null,
+            "acc": null,
+            "prec": 0.9880,
+            "rec": 0.9213,
+            "f1": 0.9535,
+            "duration_sec": null,
+            "n_forward_calls": null
+        },
+        {
+            "category": "gambling",
+            "threshold": null,
+            "acc": null,
+            "prec": 1.0000,
+            "rec": 0.9787,
+            "f1": 0.9892,
+            "duration_sec": null,
+            "n_forward_calls": null
+        },
+        {
+            "category": "nudity",
+            "threshold": null,
+            "acc": null,
+            "prec": 0.9744,
+            "rec": 0.9870,
+            "f1": 0.9806,
+            "duration_sec": null,
+            "n_forward_calls": null
+        },
+        {
+            "category": "sexy",
+            "threshold": null,
+            "acc": null,
+            "prec": 0.9400,
+            "rec": 0.9495,
+            "f1": 0.9447,
+            "duration_sec": null,
+            "n_forward_calls": null
+        },
+        {
+            "category": "smoking",
+            "threshold": null,
+            "acc": null,
+            "prec": 0.9740,
+            "rec": 0.9740,
+            "f1": 0.9740,
+            "duration_sec": null,
+            "n_forward_calls": null
+        },
+        {
+            "category": "violence",
+            "threshold": null,
+            "acc": null,
+            "prec": 0.9327,
+            "rec": 0.9417,
+            "f1": 0.9372,
+            "duration_sec": null,
+            "n_forward_calls": null
+        }
+    ],
+    "NudeNet": [
+        {
+            "category": "sexual",
+            "threshold": 0.5728,
+            "acc": 0.9498,
+            "prec": 0.9555,
+            "rec": 0.9412,
+            "f1": 0.9483,
+            "duration_sec": 146.06,
+            "n_forward_calls": 11957
+        }
+    ]
+}

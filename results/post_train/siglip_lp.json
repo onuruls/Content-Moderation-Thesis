@@ -1,0 +1,38 @@
+{
+    "LSPD/anime": [
+        {
+            "category": "sexual",
+            "threshold": 0.4495,
+            "acc": 0.9654,
+            "prec": 0.9806,
+            "rec": 0.9496,
+            "f1": 0.9649,
+            "duration_sec": 1181.08,
+            "n_forward_calls": 15000
+        }
+    ],
+    "LSPD/normal": [
+        {
+            "category": "sexual",
+            "threshold": 0.8343,
+            "acc": 0.9990,
+            "prec": 0.9994,
+            "rec": 0.9986,
+            "f1": 0.9990,
+            "duration_sec": 798.90,
+            "n_forward_calls": 15000
+        }
+    ],
+    "NudeNet": [
+        {
+            "category": "sexual",
+            "threshold": 0.5883,
+            "acc": 0.9644,
+            "prec": 0.9764,
+            "rec": 0.9502,
+            "f1": 0.9631,
+            "duration_sec": 652.70,
+            "n_forward_calls": 11957
+        }
+    ]
+}

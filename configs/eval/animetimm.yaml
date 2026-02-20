@@ -1,0 +1,24 @@
+model_name: animetimm
+repo_id: animetimm/eva02_large_patch14_448.dbv4-full
+#static_thr: 0.5 #[{float}]
+dtype: float16
+batch_size: 80
+
+###
+
+#run_name: animetimm_nudenet
+#dataset: nudenet
+#val_split: validation[:50%]
+#test_split: test
+#sexy_policy: exclude #[unsafe, exclude]
+
+run_name: animetimm_unsafebench
+dataset: unsafebench
+val_split: test
+test_split: train
+
+# run_name: animetimm_lspd_anime
+# dataset: lspd
+# lspd_domain: anime #"anime" | "normal" | "both"
+# val_split: validation[95%:]
+# test_split: test[:10%]

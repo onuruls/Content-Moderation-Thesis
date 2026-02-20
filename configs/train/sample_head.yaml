@@ -1,0 +1,12 @@
+run_name: "clip_head_train_test"
+arch: "ViT-L-14"
+pretrained: "openai"
+train_csv: "src/data/internal/val_set.csv"
+val_csv: "src/data/internal/test_set.csv"
+image_root: "src/data/internal/data"
+class_names: ["nudity", "sexy", "safe"]
+loss: "bce"
+batch_size: 32
+epochs: 2
+lr: 1.0e-3
+weight_decay: 0.01

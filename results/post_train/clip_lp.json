@@ -1,0 +1,41 @@
+[
+    {
+        "dataset": "LSPD/anime",
+        "category": "sexual",
+        "threshold": 0.3090,
+        "metrics": {
+            "acc": 0.9577,
+            "prec": 0.9719,
+            "rec": 0.9426,
+            "f1": 0.9570
+        },
+        "duration_sec": 477.07,
+        "n_forward_calls": 15000
+    },
+    {
+        "dataset": "LSPD/normal",
+        "category": "sexual",
+        "threshold": 0.7638,
+        "metrics": {
+            "acc": 0.9980,
+            "prec": 0.9980,
+            "rec": 0.9980,
+            "f1": 0.9980
+        },
+        "duration_sec": 258.02,
+        "n_forward_calls": 15000
+    },
+    {
+        "dataset": "NudeNet",
+        "category": "sexual",
+        "threshold": 0.2430,
+        "metrics": {
+            "acc": 0.9640,
+            "prec": 0.9510,
+            "rec": 0.9767,
+            "f1": 0.9637
+        },
+        "duration_sec": 136.16,
+        "n_forward_calls": 11957
+    }
+]

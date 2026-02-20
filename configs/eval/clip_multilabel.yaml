@@ -1,0 +1,12 @@
+model_name: clip_multilabel
+#static_thr: 0.5 #[{float}]
+dtype: float16
+batch_size: 80
+model_path: weights/clip_multilabel.pt
+###
+
+run_name: clip_multilabel_internal
+dataset: internal
+val_split: validation
+test_split: test
+# sexy_policy: exclude #[unsafe, exclude]

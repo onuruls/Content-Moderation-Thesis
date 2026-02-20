@@ -1,0 +1,29 @@
+model_name: hysac
+model_id: aimagelab/HySAC
+#static_thr: 0.45 #[{float}]
+dtype: float16
+batch_size: 80
+
+###
+
+#run_name: hysac_nudenet
+#dataset: nudenet
+#val_split: validation[:50%]
+#test_split: test
+#sexy_policy: exclude #[unsafe, exclude]
+
+run_name: hysac_unsafebench
+dataset: unsafebench
+val_split: test
+test_split: train
+
+#run_name: hysac_internal
+#dataset: internal
+#val_split: validation[:100%]
+#test_split: test[:100%]
+
+#run_name: hysac_lspd_anime
+#dataset: lspd
+#lspd_domain: anime #"anime" | "normal" | "both"
+#val_split: validation[95%:]
+#test_split: test[:10%]
