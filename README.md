@@ -33,7 +33,7 @@ pip install -e .
 - 🤗 **Internal (Harmful-Contents)**: [`onullusoy/harmful-contents`](https://huggingface.co/datasets/onullusoy/harmful-contents)
 
 **Closed-source datasets** — not publicly available. If you have access, place them under `src/data/` or symlink accordingly:
-- `src/data/nudenet/` — [NudeNet Dataset](https://github.com/notAI-tech/NudeNet)
+- `src/data/nudenet/` — [NudeNet Dataset
 - `src/data/lspd/` — Large-Scale Pornography Detection Dataset
 
 
